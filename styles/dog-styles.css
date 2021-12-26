@@ -8,17 +8,17 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-height: 30vh;
+    max-height: 55vh;
     overflow-y: auto;
     justify-content: space-around;
     list-style: none;
-    padding: 0;
+   
     
     
 }
 .thumbnails-image{
     width: 20vw;
-    height: 18vw;
+    height: 15vw;
     display: block;
     
 }
@@ -31,14 +31,17 @@ body {
 
 
 .details-image{
-    width: 60vw;
-    height: 55vw;
-    float: right;
+    width: 50vw;
+    height: 45vw;
+   
 }
 .details-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    float: right;
+
+    
 }
 
 
@@ -50,9 +53,10 @@ text-align: center;
     font-size: 1rem;
 }
 .thumbnails-item{
-    margin-top: 2vh;
-    margin-left: 2vw;
-    border: 1px solid blue ;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    
+    border: 2px solid blue ;
 }
 .thumbnails-anchor{
     text-decoration: none;
