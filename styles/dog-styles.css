@@ -4,6 +4,9 @@ body {
     justify-content: space-around;
     
 }
+
+
+
 .thumbnails-list{
     display: flex;
     flex-direction: row;
@@ -57,7 +60,14 @@ text-align: center;
     margin-left: 15vw;
     
     border: 2px solid blue ;
+    margin-top: 0;
 }
+.thumbnails-item+.thumbnails-item{
+margin-top: 2vh;
+
+}
+
+
 .thumbnails-anchor{
     text-decoration: none;
 }
