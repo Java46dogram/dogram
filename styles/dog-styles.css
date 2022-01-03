@@ -4,7 +4,11 @@ body {
     justify-content: space-around;
     
 }
+:root{
+ --thumbnails-image-widdth:20vw;
+ --thumbnailsimage-height: 18vw;
 
+}
 
 
 .thumbnails-list{
